@@ -1,0 +1,29 @@
+PODS:
+  - KLConfirmOrder (0.0.2):
+    - KLConfirmOrderServiceProtocol
+    - KLProtocolManager
+  - KLConfirmOrderServiceProtocol (0.0.2)
+  - KLGoodsDetail (0.0.4):
+    - KLConfirmOrderServiceProtocol
+    - KLGoodsDetailServiceProtocol
+    - KLProtocolManager
+  - KLGoodsDetailServiceProtocol (0.0.2)
+  - KLProtocolManager (0.0.4)
+
+DEPENDENCIES:
+  - KLConfirmOrder
+  - KLConfirmOrderServiceProtocol
+  - KLGoodsDetail
+  - KLGoodsDetailServiceProtocol
+  - KLProtocolManager
+
+SPEC CHECKSUMS:
+  KLConfirmOrder: 2480bc8c419aef595177053a32b0a21f5d4c9853
+  KLConfirmOrderServiceProtocol: 98823eca0ef3677c7eec811906b12a00db06b8c6
+  KLGoodsDetail: c582b94232d3af22589e132db584cacad80c75cd
+  KLGoodsDetailServiceProtocol: 163f9b4b7c73d0d988fb7c20d89b54c20cc7dee2
+  KLProtocolManager: 392d91970a5c3e76320432ca59d64ae816958b8c
+
+PODFILE CHECKSUM: 3c3102b0eb2d20d2787e9eab10b186b4eab9e453
+
+COCOAPODS: 1.1.1
